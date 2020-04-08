@@ -58,7 +58,7 @@
      "node": "12.16.1"
   },
   "scripts": {
-    "preinstall": "npm rebuild node-sass && npm i typings@2.1.0 -g && npm install -g typescript@2.2.2 && typings install && tsc -p tsconfig.json",
+    "preinstall": "npm rebuild node-sass",
     "postinstall": "bower install && gulp --production"
   }
 }
